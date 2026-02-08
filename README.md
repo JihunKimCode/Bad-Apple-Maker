@@ -4,6 +4,9 @@ This project is a **JavaScript-based pixel video player** for “Bad Apple” fr
 
 The player supports **dynamic tile swapping**, downscaling for smooth playback, and configurable visual scaling.
 
+## Show Example on YouTube
+https://youtu.be/viJ6aVv-RvQ?si=3HQ1A7pt334XDeMZ
+
 ## How to Run
 
 ```bash
