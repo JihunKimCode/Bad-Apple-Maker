@@ -14,11 +14,10 @@ cd /path/to/project
 python -m http.server 8000
 ```
 
-Open your browser at:
-http://localhost:8000/index.html
-
-To make it less laggy with preload, open browser at:
-http://localhost:8000/preload.html
+Open in your browser:
+- **Main version:** http://localhost:8000/index.html
+- **Preloaded version (less lag but high memory usage):** http://localhost:8000/preload.html
+- **No-image version (just enjoy Bad Apple!! in bitmap form):** http://localhost:8000/noimage.html
 
 ---
 
