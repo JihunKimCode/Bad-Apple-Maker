@@ -19,8 +19,6 @@ Open in your browser:
 - **Preloaded version (less lag but high memory usage):** http://localhost:8000/preload.html
 - **No-image version (just enjoy Bad Apple!! in bitmap form):** http://localhost:8000/noimage.html
 
----
-
 ## Configuration (`player.js`)
 
 All settings are at the top of `player.js` under the `CONFIG` section:
@@ -33,20 +31,13 @@ Option | Description
 `SCALE` | Visual scale factor applied to the main canvas for display. Default `1`.
 `DOWNSCALE_FACTOR` | Downscale factor for bitmap resolution. Reduces number of tiles drawn per frame. Default `0.1` (10% of original size).
 
----
-
 ## Tiles (`tiles/`)
 
 - `0.png` → Image used for pixels with value `0`.
 - `1.png` → Image used for pixels with value `1`.
-
----
 
 ## Customization
 
 - **Change tile images**: Replace `tiles/0.png` and `tiles/1.png` with your own images.
 - **Adjust FPS**: Modify `FPS` in `player.js`.
 - **Reduce lag**: Decrease `TILE_SIZE` or `DOWNSCALE_FACTOR`.
-- **Increase visual size**: Increase `SCALE`.
-
----

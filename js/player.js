@@ -1,8 +1,9 @@
 // ================= CONFIG =================
 const FRAME_COUNT = 6572;
+const SCALE = 1;                            // visual upscale on screen
+
 const FPS = 120;                            // Frames per second to play the video
 const TILE_SIZE = 64;                       // size of each tile
-const SCALE = 1;                            // visual upscale on screen
 const DOWNSCALE_FACTOR = 0.1;               // reduce bitmap resolution
 // ==========================================
 
