@@ -17,7 +17,7 @@ python -m http.server 8000
 Open in your browser:
 - **Main version:** http://localhost:8000/index.html
 - **Preloaded version (less lag but high memory usage):** http://localhost:8000/preload.html
-- **No-image version (just enjoy Bad Apple!! in bitmap form):** http://localhost:8000/noimage.html
+- **No-image version (enjoy Bad Apple!! in bitmap form):** http://localhost:8000/noimage.html
 
 ## Configuration (`player.js`)
 
@@ -26,10 +26,10 @@ All settings are at the top of `player.js` under the `CONFIG` section:
 Option | Description
 -------|-------------
 `FRAME_COUNT` | Total number of JSON frames in `bitmaps/`. Default `6572`.
-`FPS` | Frames per second to play the video. Default is `120`.
-`TILE_SIZE` | Size in pixels for each tile drawn on offscreen canvas. Use smaller sizes for faster rendering. Default `64`.
 `SCALE` | Visual scale factor applied to the main canvas for display. Default `1`.
-`DOWNSCALE_FACTOR` | Downscale factor for bitmap resolution. Reduces number of tiles drawn per frame. Default `0.1` (10% of original size).
+`FPS` | Frames per second to play the video. Default is `120`.
+`TILE_SIZE` | Size, in pixels, of each tile drawn on the offscreen canvas. Use smaller sizes for faster rendering. Default `64`.
+`DOWNSCALE_FACTOR` | Downscale factor for bitmap resolution. Reduces the number of tiles drawn per frame. Default `0.1` (10% of original size).
 
 ## Tiles (`tiles/`)
 
